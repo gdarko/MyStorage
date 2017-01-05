@@ -15,3 +15,6 @@ var item = Storage.get(key);
 Storage.remove(key)
 
 ```
+
+## Requirements
+- [js-cookie](https://github.com/js-cookie/js-cookie)
