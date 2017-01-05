@@ -5,13 +5,13 @@ localStorage | Cookies.js backwards compatible wrapper.
 ```javascript
 var Storage = new MyStorage('localStorage');
 
-#Set item
+/* Set item */
 Storage.set(key, value);
 
-#Get Item
+/* Get Item */
 var item = Storage.get(key);
 
-#Remove Item
+/* Remove Item */
 Storage.remove(key)
 
 ```
