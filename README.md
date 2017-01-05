@@ -1,5 +1,5 @@
 # MyStorage
-localStorage | Cookies.js backwards compatible wrapper.
+localStorage | [js-cookie](https://github.com/js-cookie/js-cookie) (Cookies) backwards compatible wrapper.
 
 ## Example Usage
 #### It can store simple values or Javascript objects. The Javascript objects are stored as JSON and upon retrival they are converted in object again. 
