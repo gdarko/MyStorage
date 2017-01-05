@@ -3,7 +3,7 @@ localStorage | Cookies.js backwards compatible wrapper.
 
 ## Usage
 ```javascript
-var Storage = new MyStorage('localStorage');
+var Storage = new MyStorage('localStorage'); // localStorage or Cookies
 
 /* Set item */
 Storage.set(key, value);
