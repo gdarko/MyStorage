@@ -6,9 +6,9 @@
  * @Licence: GPLv3
  */
 
-var MyStorage = function() {
+var MyStorage = function( storage_type ) {
 
-	this.type = 'localStorage';
+	this.type = (typeof storage_type !== 'undefined') ? storage_type : 'localStorage';
 
 	this.getJSON = function( key ) {
 		if(this.type === 'localStorage') {
